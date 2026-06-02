@@ -1,0 +1,58 @@
+/* Container to allow horizontal scrolling on small screens */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Base Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+/* Header Styling */
+thead {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+th, td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+/* Zebra Striping & Hover Effect */
+tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+tbody tr:hover {
+  background-color: #f3f4f6;
+  transition: background-color 0.2s ease;
+}
+
+/* Custom Status Badges */
+.status {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.status.completed { background-color: #def7ec; color: #03543f; }
+.status.progress { background-color: #e1effe; color: #1e429f; }
+.status.review { background-color: #fef08a; color: #713f12; }
+.status.pending { background-color: #f3f4f6; color: #374151; }

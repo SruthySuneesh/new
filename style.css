@@ -1,0 +1,21 @@
+.navSection{
+    display:flex;
+    background-color: bisque;
+}
+body{
+        background-image: url("travel.JPEG");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+h1{
+ color:rgb(218, 227, 227)
+}
+.search{
+    background-color: aliceblue;
+}
+img{
+    width: 45px;
+    height:auto
+}
